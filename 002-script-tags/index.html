@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>002 - Script Tags</title>
+  <link rel="shortcut icon" href="/_assets/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <main>
+    <div id="demo"></div>
+    <button id="changeDemoText" onclick="changeDemoText()">Change Demo Text</button>
+  </main>
+
+  <script>
+    document.getElementById("demo").innerHTML = "Hello World!";
+
+    function changeDemoText() {
+      document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    }
+  </script>
+</body>
+</html>
